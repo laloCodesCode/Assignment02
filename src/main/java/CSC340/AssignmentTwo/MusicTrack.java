@@ -30,6 +30,20 @@ public class MusicTrack {
         return link;
     }
 
+    //Setter method block
+    public void setTitle(String title){
+        this.title = title;
+    }
+    public void setArtist(Artist artist){
+        this.artist = artist;
+    }
+    public void setAlbum(Album album){
+        this.album = album;
+    }
+    public void setLink(String link){
+        this.link = link;
+    }
+
     public static class Album {
         private String title;
 
