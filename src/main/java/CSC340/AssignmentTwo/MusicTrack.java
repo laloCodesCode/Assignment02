@@ -44,6 +44,7 @@ public class MusicTrack {
         this.link = link;
     }
 
+    //Objects for artist and album
     public static class Album {
         private String title;
 
