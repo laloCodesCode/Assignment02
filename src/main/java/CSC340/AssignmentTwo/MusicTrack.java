@@ -16,6 +16,20 @@ public class MusicTrack {
     }
 
 
+    //Getter method block
+    public String getTitle(){
+        return title;
+    }
+    public Artist getArtist(){
+        return artist;
+    }
+    public Album getAlbum() {
+        return album;
+    }
+    public String getLink(){
+        return link;
+    }
+
     public static class Album {
         private String title;
 
