@@ -1,11 +1,13 @@
 package CSC340.AssignmentTwo;
 
 public class MusicTrack {
+    //Data Declerations
     private String title;
     private Artist artist;
     private Album album;
     private String link;
 
+    //Argumeneted constructor
     public MusicTrack(String title, Artist artist, Album album, String link) {
         this.title = title;
         this.artist = artist;
@@ -58,8 +60,6 @@ public class MusicTrack {
 
 
     }
-
-
     public static class Artist {
         private String name;
 
