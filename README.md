@@ -6,4 +6,4 @@
 - Make sure jdk versions match.
 - Run the main method.
 ## On Postman:
-*http://localhost:8080/api/badbunny **(GET)**
+* http://localhost:8080/api/badbunny **(GET)**
